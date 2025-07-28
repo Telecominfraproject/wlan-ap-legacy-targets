@@ -90,7 +90,6 @@
 		APPSBLENV@e0000 {
 			label = "APPSBLENV";
 			reg = <0xe0000 0x10000>;
-			read-only;
 		};
 		APPSBL@f0000 {
 			label = "APPSBL";
