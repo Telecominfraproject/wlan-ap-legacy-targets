@@ -186,6 +186,6 @@ define Device/edgecore_spw2ac1200
 	BLOCKSIZE := 128k
 	PAGESIZE := 2048
 	DEVICE_DTS_CONFIG := config@ap.dk01.1-c2
-	DEVICE_PACKAGES := kmod-tpm-i2c-atmel kmod-usb-acm uboot-envtools kmod-usb-net kmod-usb-net-cdc-qmi uqmi
+	DEVICE_PACKAGES := kmod-tpm-i2c-atmel kmod-usb-acm uboot-envtools
 endef
 TARGET_DEVICES += edgecore_spw2ac1200
